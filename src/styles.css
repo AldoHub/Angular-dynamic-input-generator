@@ -1,1 +1,130 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Montserrat;
+    background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+}
+.container * {
+    transition: all 0.400s ease-in-out;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+   
+}
+header {
+    position: relative;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+   
+}
+header h1 {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+header img {
+    width: 60%;
+    max-width: 300px;
+    min-width: 300px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form * {
+    display: block;
+    width: 100%;
+}
+form label {
+    margin-bottom: 10px;
+}
+
+form input{
+    border: none;
+    background: none;
+    padding: 10px 0px;
+}
+
+.languages {
+    border: 1px solid #a096fc;
+    width: 97%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+form select {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    
+}
+
+form input[type="text"]{
+    border-bottom: 1px solid #eee;
+    color: #fff;
+}
+.removeField {
+   margin: 0px 0px 0px auto;
+    width: 160px;
+    padding: 10px;
+    cursor: pointer;
+    background: rgb(253, 68, 68);
+}
+
+
+
+.add {
+    width: 160px;
+    padding: 10px;
+    font-weight: bold;
+    background: rgb(253, 81, 138);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+}
+i {
+    width: 20px;
+    margin-right: 10px;
+   }
+
+
+form .controls {
+    margin: 10px 0px;
+}
+
+form input[type="submit"]:disabled {
+    background: ghostwhite;
+}
+
+form input[type="submit"]{
+    background: #1cf17c;
+    width: 40%;
+    margin: 0px 0px 0px auto;
+    font-size: 1.1rem;
+    -webkit-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.75);
+}
